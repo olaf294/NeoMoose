@@ -1,0 +1,1 @@
+$execute store result storage plotdata $(temp).defgm int 1 run scoreboard players get @s defgm

@@ -1,0 +1,59 @@
+execute if block ~ ~-1 ~ air run setblock ~ ~-1 ~ barrel{lock:{components:{item_model:"test_instance_block"}},CustomName:'click with "Chest Auto-Refill Block" item'}
+item replace block ~ ~1 ~ container.0 from block ~ ~-1 ~ container.0
+item replace block ~ ~1 ~ container.1 from block ~ ~-1 ~ container.1
+item replace block ~ ~1 ~ container.2 from block ~ ~-1 ~ container.2
+item replace block ~ ~1 ~ container.3 from block ~ ~-1 ~ container.3
+item replace block ~ ~1 ~ container.4 from block ~ ~-1 ~ container.4
+item replace block ~ ~1 ~ container.5 from block ~ ~-1 ~ container.5
+item replace block ~ ~1 ~ container.6 from block ~ ~-1 ~ container.6
+item replace block ~ ~1 ~ container.7 from block ~ ~-1 ~ container.7
+item replace block ~ ~1 ~ container.8 from block ~ ~-1 ~ container.8
+item replace block ~ ~1 ~ container.9 from block ~ ~-1 ~ container.9
+item replace block ~ ~1 ~ container.10 from block ~ ~-1 ~ container.10
+item replace block ~ ~1 ~ container.11 from block ~ ~-1 ~ container.11
+item replace block ~ ~1 ~ container.12 from block ~ ~-1 ~ container.12
+item replace block ~ ~1 ~ container.13 from block ~ ~-1 ~ container.13
+item replace block ~ ~1 ~ container.14 from block ~ ~-1 ~ container.14
+item replace block ~ ~1 ~ container.15 from block ~ ~-1 ~ container.15
+item replace block ~ ~1 ~ container.16 from block ~ ~-1 ~ container.16
+item replace block ~ ~1 ~ container.17 from block ~ ~-1 ~ container.17
+item replace block ~ ~1 ~ container.18 from block ~ ~-1 ~ container.18
+item replace block ~ ~1 ~ container.19 from block ~ ~-1 ~ container.19
+item replace block ~ ~1 ~ container.20 from block ~ ~-1 ~ container.20
+item replace block ~ ~1 ~ container.21 from block ~ ~-1 ~ container.21
+item replace block ~ ~1 ~ container.22 from block ~ ~-1 ~ container.22
+item replace block ~ ~1 ~ container.23 from block ~ ~-1 ~ container.23
+item replace block ~ ~1 ~ container.24 from block ~ ~-1 ~ container.24
+item replace block ~ ~1 ~ container.25 from block ~ ~-1 ~ container.25
+item replace block ~ ~1 ~ container.26 from block ~ ~-1 ~ container.26
+item replace block ~ ~1 ~ container.27 from block ~ ~-1 ~ container.27
+item replace block ~ ~1 ~ container.28 from block ~ ~-1 ~ container.28
+item replace block ~ ~1 ~ container.29 from block ~ ~-1 ~ container.29
+item replace block ~ ~1 ~ container.30 from block ~ ~-1 ~ container.30
+item replace block ~ ~1 ~ container.31 from block ~ ~-1 ~ container.31
+item replace block ~ ~1 ~ container.32 from block ~ ~-1 ~ container.32
+item replace block ~ ~1 ~ container.33 from block ~ ~-1 ~ container.33
+item replace block ~ ~1 ~ container.34 from block ~ ~-1 ~ container.34
+item replace block ~ ~1 ~ container.35 from block ~ ~-1 ~ container.35
+item replace block ~ ~1 ~ container.36 from block ~ ~-1 ~ container.36
+item replace block ~ ~1 ~ container.37 from block ~ ~-1 ~ container.37
+item replace block ~ ~1 ~ container.38 from block ~ ~-1 ~ container.38
+item replace block ~ ~1 ~ container.39 from block ~ ~-1 ~ container.39
+item replace block ~ ~1 ~ container.40 from block ~ ~-1 ~ container.40
+item replace block ~ ~1 ~ container.41 from block ~ ~-1 ~ container.41
+item replace block ~ ~1 ~ container.42 from block ~ ~-1 ~ container.42
+item replace block ~ ~1 ~ container.43 from block ~ ~-1 ~ container.43
+item replace block ~ ~1 ~ container.44 from block ~ ~-1 ~ container.44
+item replace block ~ ~1 ~ container.45 from block ~ ~-1 ~ container.45
+item replace block ~ ~1 ~ container.46 from block ~ ~-1 ~ container.46
+item replace block ~ ~1 ~ container.47 from block ~ ~-1 ~ container.47
+item replace block ~ ~1 ~ container.48 from block ~ ~-1 ~ container.48
+item replace block ~ ~1 ~ container.49 from block ~ ~-1 ~ container.49
+item replace block ~ ~1 ~ container.50 from block ~ ~-1 ~ container.50
+item replace block ~ ~1 ~ container.51 from block ~ ~-1 ~ container.51
+item replace block ~ ~1 ~ container.52 from block ~ ~-1 ~ container.52
+item replace block ~ ~1 ~ container.53 from block ~ ~-1 ~ container.53
+execute unless block ~ ~ ~ barrier if block ~ ~-1 ~ barrel run setblock ~ ~-1 ~ air
+execute unless block ~ ~ ~ barrier run kill @s
+
+tp @s ~ ~ ~ 0 0
